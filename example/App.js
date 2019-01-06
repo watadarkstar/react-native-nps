@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TouchableOpacity, StyleSheet, Text, View } from 'react-native';
-// import NPS from "../src/index";
+import { NPS } from "react-native-nps";
 
 export default class App extends Component {
   state = {
@@ -17,6 +17,7 @@ export default class App extends Component {
         <TouchableOpacity onPress={this.onPress} style={styles.button}>
           <Text style={styles.text}>Press Me</Text>
         </TouchableOpacity>
+        <NPS show={this.state.show} />
       </View>
     );
   }

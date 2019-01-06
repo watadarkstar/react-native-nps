@@ -15,6 +15,20 @@
   ],
   "author": "Adrian Carolli",
   "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.5.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-native": "^0.57.7",
+    "release-it": "^8.2.0"
+  },
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-native": "*"
+  },
   "bugs": {
     "url": "https://github.com/watadarkstar/react-native-nps/issues"
   },
